@@ -29,7 +29,7 @@ public class DriveTrain extends Subsystem {
 	
 	// TODO: change to proper naming
 	public void arcadeDrive(double speed, double rotation) {
-		drive.curvatureDrive(speed, rotation, true);
+		drive.arcadeDrive(speed, rotation, true);
 	}
 	
 	@Override
